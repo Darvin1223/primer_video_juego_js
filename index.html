@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi primer video juego || carreras y calaberas</title>
+</head>
+<body>
+    <div class="game-container">
+        <canvas  id="game"></canvas>
+        <div class="btn-container">
+            <button id="up">Arriba</button>
+            <button id="left">Izquierda</button>
+            <button id="right">Derecha</button>
+            <button id="down">Abajo</button>
+        </div>
+
+        <div class="messages">
+            <p>Vidas: <span id="lives"></span></p>
+            <p>Tiempo: ⌚<span id="time"></span></p>
+            <p>Record: ⏲️<span id="record"></span></p>
+            <p id="result"></p>
+        </div>
+    </div>
+    <!-- <section class="win-container inactive">
+
+      <h2> ¡Felicidades! Terminaste el juego</h2>
+
+      <span>🏆</span>
+
+      <p class="newrecord"></p>
+
+      <a href="/index.html"><input type="button" value="Volver a Jugar"></a>
+</section> -->
+    <script src="js/maps.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
